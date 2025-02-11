@@ -1,4 +1,22 @@
 /*menu beranda*/
 #labelJudul {
   font-family: serif;
+  text-align: center;
+}
+
+#navbarMenu{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+.navMenu{
+  display: inline;
+  padding: 4px;
+  background-color: white;
+  color: black;
 }
